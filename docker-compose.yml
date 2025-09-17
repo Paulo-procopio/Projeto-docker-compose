@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  portfolio:
+
+  # constrói a imagem usando o Dockerfile da raiz.
+    build: .
+    
+  # nome da imagem gerada.
+    image: ubuntu/nginx:1.0
+
+  # nome amigável para o container
+    container_name: Ubuntu-portfolio
+
+  # mapeia a porta 8080 do host para a 80 do container.
+    ports:
+      - "8080:80"
+
+  # garante que o container reinicie automaticamente.
+    restart: always
