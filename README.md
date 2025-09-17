@@ -12,15 +12,7 @@ Este projeto é um exemplo simples de como usar **Docker** e **Docker Compose** 
 - Nginx
 
 ## Estrutura do projeto
-
-ASCII art diagrams
-https://gist.github.com/dsample/79a97f38bf956f37a0f99ace9df367b9
-
-├── docker-compose.yml # Orquestração do container
-├── Dockerfile # Configuração da imagem
-├── html/ # Arquivos estáticos (frontend)
-│ ├── index.html
-│ └── style.css
+<img width="1906" height="685" alt="image" src="https://github.com/user-attachments/assets/8bfff80b-0dae-4f99-b295-61fe1e73ad72" />
 
 
 ## Como funciona
@@ -44,3 +36,5 @@ docker-compose up --build -d
 
 ### 3. Acessar no navegador
 http://localhost:8080
+
+<img width="1906" height="904" alt="image" src="https://github.com/user-attachments/assets/a39901bf-ac8b-414e-8993-6d5da88f9586" />
